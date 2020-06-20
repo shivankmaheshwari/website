@@ -1,0 +1,338 @@
+body{
+	font-size: 50px;
+	color:#3cb371;
+	background-color: #61122f;
+	font-family: 'oxygen', sans-serif;
+}
+
+#header-nav{
+	background-color: #f4bc1c;
+	border-radius: 0;
+	border:0;
+}
+#logo-img{
+	background: url("file://C:/Users/class/OneDrive/Desktop/study%20material/pilani.png") no-repeat ;
+	width:150px;
+	height:150px;
+	margin:10px 15px 10px 0px;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand h1{
+	font-family: 'lora',serif;
+	color:#557c3e;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 5px;
+	line-height: 0.75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p{
+	text-transform: uppercase;
+	margin-top: 10px;
+	color: #000;
+	margin-left: 5px;
+	font-size: 0.7em;
+}
+.navbar-brand p span{
+	vertical-align: middle;
+}
+.navbar-expand-md{
+	margin-left: 60%;
+}
+.navbar-nav >li{
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+.nav-item span{
+	font-size: 0.3em;
+	color: blue;
+	font-weight: bold;
+}
+.nav-item a{
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+.nav-item{
+	line-height: 0.5;
+}
+.nav-item a:hover{
+	background:#e7e7e7;
+}
+.navbar-custom .navbar-toggler {
+border:2px solid #61122f;
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+padding:1px 1px 1px 1px;
+float: right;
+}
+.nav-item p{
+	font-size: 0.2em;
+	color: green;
+	margin-left: 40%;
+}
+.phoneno{
+	font-size: 0.5em;
+	background-color: #f4bc1c;
+	border:1px solid white;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	color: #61122f;
+	border-radius: 5px;
+}
+@media(min-width: 1200px){
+	.jumbotron{
+		background: url('C:\\Users\\class\\OneDrive\\Desktop\\dmess1200.jpg') no-repeat;
+		height:670px;
+		box-shadow: 0 0 50px #3f0c1f;
+		border:2px solid #3f0c1f;
+		margin-top: 10px;
+	}
+	.navbar-nav{
+		margin-top: -65px;
+	}
+
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	.jumbotron{
+		background:url('C:\\Users\\class\\OneDrive\\Desktop\\dmess992.jpg') no-repeat;
+		height:558px;
+		box-shadow: 0 0 50px #3f0c1f;
+		border:2px solid #3f0c1f;
+		margin-top: 10px;
+	}
+	#logo-img{
+	background: url("file://C:/Users/class/OneDrive/Desktop/study%20material/pilani2.png") no-repeat ;
+	width:100px;
+	height:100px;
+	margin: 5px 5px 5px 0;
+
+	}
+	.navbar .container{
+		flex-wrap: nowrap;
+
+	}
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.jumbotron{
+		background:url('C:\\Users\\class\\OneDrive\\Desktop\\dmess768s.jpg') no-repeat;
+		height:432px;
+		box-shadow: 0 0 50px #3f0c1f;
+		border:2px solid #3f0c1f;
+		margin-top: 10px;
+
+	}
+	.nav-item span{
+		float: right;
+	}
+	.navbar-nav > li{
+		padding-bottom:10px;
+	}
+}
+@media (min-width: 576px) and (max-width: 767px){
+	.jumbotron{
+		background: url('C:\\Users\\class\\OneDrive\\Desktop\\dmess500.jpg') no-repeat;
+		height: 500px;
+		box-shadow: 0 0 50px #3f0c1f;
+		border:2px solid #3f0c1f;
+		margin-top: 10px;
+		padding: 0;
+	}
+	.menu-item-photo{
+		margin-right:auto !important;
+	}
+	.menu-item-tile .menu-item-price{
+		text-align: center!important;
+	}
+	.menu-item-description{
+		text-align: center!important;
+	}
+	.nav-item span{
+		float: right;
+	}
+	.navbar-nav > li{
+		padding-bottom:10px;
+	}
+
+}
+@media (max-width: 575px){
+	.jumbotron{
+		padding: 0;
+	}
+	.panel-footer section{
+		text-align:center;
+	}
+	.panel-footer section hr{
+		width:50%;
+	}
+	.menu-item-photo{
+		margin-right: auto!important;
+	}
+	.menu-item-tile .menu-item-price{
+		text-align: center!important;
+	}
+	.menu-item-description{
+		text-align: center!important;
+	}
+	.nav-item span{
+		float: right;
+	}
+	.navbar-nav > li{
+		padding-bottom:10px;
+	}
+}
+
+#menu-tile, #specials-tile, #map-tile{
+	height: 250px;
+	width:100%;
+	margin-bottom: 15px;
+	position: relative;
+	border:2px solid #3f0c1f;
+	overflow: hidden;
+	border-radius: 5px;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile{
+	background:url('C:\\Users\\class\\OneDrive\\Desktop\\food.jpg') no-repeat;
+	background-position: center;
+	width: 100%;
+}
+#specials-tile{
+	background: url('C:\\Users\\class\\OneDrive\\Desktop\\food.jpg') no-repeat;
+	background-position: center;
+	width: 100%;
+}
+#menu-tile span, #specials-tile span, #map-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 0.5em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .6 ;
+}
+.panel-footer{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border:0;
+	font-size: 0.25em;
+}
+#hours > span , #address > span{
+	font-size: 1.3em;
+}
+#testimonials{
+	font-style: italic;
+}
+.text-center
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+hr{
+	border-top:1px solid #fff;
+	opacity: 0.8;
+	margin-bottom: 3rem;
+	margin-top: 2rem;
+}
+#menu-categories-title{
+	margin-top: 40px;
+}
+#business{
+
+	font-size: 0.4em;
+	margin-bottom: 50px;
+
+}
+.category-tile{
+	position: relative;
+	overflow: hidden;
+	height: 200px;
+	width:200px;
+	margin:0 auto 15px;
+}
+.category-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 0.5em;
+	text-transform: uppercase;
+	background-color: #000;
+	color:#fff;
+	opacity: 0.8;
+}
+.category-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+h3{
+	font-size: 0.5em;
+}
+#size{
+	font-size: 0.3em;
+}
+/*single-category-page*/
+.menu-item-tile {
+	margin-bottom: 25px;
+}
+.menu-item-tile hr{
+	width: 80%;
+}
+.menu-item-tile .menu-item-price{
+	font-size: 0.5em;
+	text-align: right;
+} 
+.menu-item-tile .menu-item-price span{
+	font-size: 0.4em;
+}
+.menu-item-photo{
+	position: relative;
+	border:2px solid #3f0c1f;
+	overflow: hidden;
+	padding: 0;
+	margin-right: -15px;
+	margin-left: auto;
+	margin-bottom: 5px;
+	max-width: 250px;
+}
+.menu-item-photo div{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 80px;
+	background-color: #557c3e;
+	text-align: center;
+}
+.menu-item-description{
+	padding-right: 30px;
+}
+h3.menu-item-title{
+	margin: 0 0 10px;
+}
+.menu-item-details{
+	font-style: italic;
+}
+.navbar{
+	justify-content: flex-end;
+	margin-left: auto;
+}
